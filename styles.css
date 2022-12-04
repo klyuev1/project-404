@@ -1,0 +1,42 @@
+body {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  width: 1280px;
+  margin: 0 auto;
+}
+.pic {
+  width: 520px;
+  height: 190px;
+  margin: 110px 380px 0
+}
+.error-main {
+  width: 420px;
+  height: 140px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+}
+.error {
+  font-size: 120px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.error-main .title {
+  opacity: 0;
+}
+.error:hover+.title {
+  position:absolute;
+  top: 142px;
+  transition: 0.5s;
+  opacity: 1;
+}
+.footer {
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  margin: 280px 430px 30px;
+}
+
